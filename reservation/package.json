@@ -1,0 +1,38 @@
+{
+  "name": "app-setup",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 1111",
+    "dev-tourist": "vite --config vite.config.tourist.js --host 0.0.0.0 --port 2222",
+    "dev-tourguide": "vite --config vite.config.tourguide.js --host 0.0.0.0 --port 3333",
+    "dev-personel": "vite --config vite.config.personel.js --host 0.0.0.0 --port 4444",
+    "dev-boatOwner": "vite --config vite.config.boatOwner.js --host 0.0.0.0 --port 5555",
+    "build": "vite build",
+    "build-tourist": "vite build --config vite.config.tourist.js",
+    "build-tourguide": "vite build --config vite.config.tourguide.js",
+    "build-personel": "vite build --config vite.config.personel.js",
+    "build-boatOwner": "vite build --config vite.config.boatOwner.js",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "axios": "^1.6.2",
+    "bootstrap": "^5.0.2",
+    "create-vite": "^4.4.1",
+    "datatables.net": "^1.13.6",
+    "datatables.net-bs5": "^1.13.8",
+    "jquery": "^3.7.0",
+    "pinia": "^2.0.16",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.2",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@vitejs/plugin-vue": "^3.0.1",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "prettier": "^2.5.1"
+  }
+}
